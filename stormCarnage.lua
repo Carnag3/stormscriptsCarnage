@@ -1,7 +1,7 @@
 Storm = {}
 
-Storm.optionEnable = Menu.AddOptionBool({"Hero Specific", "Storm Spirit"}, "Auto Remnant", "Auto cast remnant if there's an enemy in range"), "Combo Key", Enum.ButtonCode.KEY_7)
-Storm.optionAutoVortex = Menu.AddOptionBool({"Hero Specific", "Storm Spirit"}, "Auto Vortex", "Auto vortex any enemy in range"), "Combo Key", Enum.ButtonCode.KEY_6)
+Storm.optionEnable = Menu.AddKeyOption({"Hero Specific", "Storm Spirit"}, "Auto Remnant", "Auto cast remnant if there's an enemy in range"), "Combo Key", Enum.ButtonCode.KEY_7)
+Storm.optionAutoVortex = Menu.AddKeyOption({"Hero Specific", "Storm Spirit"}, "Auto Vortex", "Auto vortex any enemy in range"), "Combo Key", Enum.ButtonCode.KEY_6)
 Storm.optionAttackHelper = Menu.AddOptionBool({"Hero Specific", "Storm Spirit"}, "Attack Helper", "When right click enemy, auto bolt to maximize damage"), "Enable", false)
 
  target
